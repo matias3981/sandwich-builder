@@ -4,7 +4,7 @@ export function Ingredients() {
 	const addIngredient = useSandwich((state) => state.addIngredient);
 
 	return (
-		<div className='max-w-screen-lg overflow-hidden m-auto mt-6'>
+		<div className='max-w-full lg:max-w-screen-lg overflow-hidden m-auto mt-6'>
 			<ul className='flex gap-6 overflow-x-auto '>
 				{Object.keys(INGREDIENTS).map((ingredient) => (
 					<li
